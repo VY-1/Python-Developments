@@ -38,3 +38,24 @@ while True:
     response = input("Say something: ")
     if(response == 'bye'):
         break
+    
+print("========Break, Continue, Pass=======") 
+print("======Break=====")
+my_list = [1,2,3]
+for item in my_list:
+    print(item)
+    break
+
+print("=====Continue=====")
+for item in my_list:
+    print(item)
+    continue
+    print("this line will never get printed")
+    
+print("======Pass=====")
+for item in my_list:
+    print(item)
+    pass            #does nothing, mainly use as placeholder
+
+
+
